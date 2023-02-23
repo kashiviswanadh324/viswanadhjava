@@ -50,4 +50,5 @@
     <version>5.2.3</version>
 </dependency>
   </dependencies>
+  <goal>test-Dtest="src\test\java\tests\renner1.java"</goal>
 </project>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-21T16:53:45 IST" name="Default suite" finished-at="2023-02-21T16:53:55 IST" duration-ms="9820">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-02-21T16:53:45 IST" name="Default test" finished-at="2023-02-21T16:53:55 IST" duration-ms="9820">
+      <class name="tests.Runner1$runner1">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:45 IST" name="setUpClass" finished-at="2023-02-21T16:53:46 IST" duration-ms="880" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@26d40c77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:49 IST" duration-ms="3430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["get all posts"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["get user posts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:50 IST" duration-ms="801" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["get specific post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["get user posts"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:51 IST" duration-ms="946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["create post"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:52 IST" duration-ms="1103" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["create post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at gluecode.StepDef2.method3(StepDef2.java:58)
+at ✽.status code is "200" as per "duplicate" and content type is "application/json"(file:///D:/kashi/org.restAssured-BDD-cucumber-pico-container/src/test/resources/features/feature2.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:53 IST" duration-ms="1020" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["create a new post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["create post"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at gluecode.StepDef2.method3(StepDef2.java:58)
+at ✽.status code is "500" as per "wrong" and content type is "application/json"(file:///D:/kashi/org.restAssured-BDD-cucumber-pico-container/src/test/resources/features/feature2.feature:27)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:54 IST" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["delete an existing post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["posts deletion"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-02-21T16:53:54 IST" duration-ms="232" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["update an existing post"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["post updation"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.Runner1$runner1@d5b810e]" started-at="2023-02-21T16:53:54 IST" name="tearDownClass" finished-at="2023-02-21T16:53:55 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- tests.Runner1$runner1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

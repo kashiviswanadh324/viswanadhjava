@@ -3,6 +3,7 @@
   <groupId>org.restAssured-BDD-cucumber-pico-container</groupId>
   <artifactId>org.restAssured-BDD-cucumber-pico-container</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <goal>test-Dtest="src\test\java\tests\renner1.java"</goal>
   <dependencies>
   <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
 <dependency>
@@ -50,5 +51,4 @@
     <version>5.2.3</version>
 </dependency>
   </dependencies>
-  <goal>test-Dtest="src\test\java\tests\renner1.java"</goal>
 </project>

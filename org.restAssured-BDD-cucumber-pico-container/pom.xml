@@ -68,7 +68,7 @@
       <version>2.19.1</version>
       <configuration>
         <suiteXmlFiles>
-          <suiteXmlFile>org.restAssured-BDD-cucumber-pico-container\testng123.xml</suiteXmlFile>
+          <suiteXmlFile>testng123.xml</suiteXmlFile>
         </suiteXmlFiles>
          </configuration>
     </plugin>
